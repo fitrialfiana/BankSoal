@@ -37,7 +37,7 @@ public class Dashboard extends AppCompatActivity {
             public void onClick(View view) {
                 Bundle bundle = new Bundle();
                 //Buat objek berpindah act dari halaman dashboard ke halaman yang menampilkan kategori soal
-                Intent i = new Intent(getApplicationContext(),LihatSoal.class);
+                Intent i = new Intent(getApplicationContext(),H2_UploadSoal.class);
                 i.putExtras(bundle);
                 startActivity(i);
             }

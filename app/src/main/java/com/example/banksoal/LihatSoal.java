@@ -55,7 +55,7 @@ public class LihatSoal extends AppCompatActivity {
             }
         });
 
-        btnB3.setOnClickListener(new View.OnClickListener() {
+        btnB4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Bundle bundle = new Bundle();

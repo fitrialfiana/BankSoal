@@ -19,9 +19,9 @@ public class KategoriSoal extends AppCompatActivity {
 
         //Menghubungkan variabel button dengan komponen pada layout
         btnK1 = findViewById((R.id.btK1));
-        btnK2 = findViewById((R.id.btK1));
-        btnK3 = findViewById((R.id.btK1));
-        btnK4 = findViewById((R.id.btK1));
+        btnK2 = findViewById((R.id.btK2));
+        btnK3 = findViewById((R.id.btk3));
+        btnK4 = findViewById((R.id.btK4));
 
         btnK1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,7 +55,7 @@ public class KategoriSoal extends AppCompatActivity {
             }
         });
 
-        btnK3.setOnClickListener(new View.OnClickListener() {
+        btnK4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Bundle bundle = new Bundle();
