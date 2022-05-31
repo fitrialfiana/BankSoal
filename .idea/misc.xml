@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
         <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_main.xml" value="0.10131712259371833" />
-        <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_register.xml" value="0.10131712259371833" />
+        <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_register.xml" value="0.22" />
       </map>
     </option>
   </component>

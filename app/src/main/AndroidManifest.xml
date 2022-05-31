@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BankSoal">
         <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".UploadSoal"
+            android:exported="false" />
+        <activity
+            android:name=".LihatSoal"
+            android:exported="false" />
+        <activity
             android:name=".Dashboard"
             android:exported="false" />
         <activity
