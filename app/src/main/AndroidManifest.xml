@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BankSoal">
         <activity
+            android:name=".TampilSoal"
+            android:exported="false" />
+        <activity
             android:name=".KategoriSoal"
             android:exported="false" />
         <activity

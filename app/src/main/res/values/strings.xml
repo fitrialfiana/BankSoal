@@ -28,4 +28,16 @@
     <string name="namapp">Bank Soal Application</string>
     <string name="desc">Solusi belajar persiapan soal ujian</string>
     <string name="descLihatSoal">Kategori Mata Pelajaran</string>
+
+    <string name="K1">Kategori 1</string>
+    <string name="K2">Kategori 2</string>
+    <string name="K3">Kategori 3</string>
+    <string name="K4">Kategori 4</string>
+    <string name="descKategori">SubKategori Bank Soal</string>
+
+
+    <string name="desctampil">Daftar Soal dan Jawaban</string>
+
+
+
 </resources>

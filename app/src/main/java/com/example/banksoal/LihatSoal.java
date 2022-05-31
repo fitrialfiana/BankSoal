@@ -33,7 +33,37 @@ public class LihatSoal extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        btnB2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Bundle bundle = new Bundle();
+                //Buat objek berpindah act dari halaman dashboard ke halaman yang menampilkan kategori soal
+                Intent i = new Intent(getApplicationContext(),KategoriSoal.class);
+                i.putExtras(bundle);
+                startActivity(i);
+            }
+        });
+        btnB3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Bundle bundle = new Bundle();
+                //Buat objek berpindah act dari halaman dashboard ke halaman yang menampilkan kategori soal
+                Intent i = new Intent(getApplicationContext(),KategoriSoal.class);
+                i.putExtras(bundle);
+                startActivity(i);
+            }
+        });
+
+        btnB3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Bundle bundle = new Bundle();
+                //Buat objek berpindah act dari halaman dashboard ke halaman yang menampilkan kategori soal
+                Intent i = new Intent(getApplicationContext(),KategoriSoal.class);
+                i.putExtras(bundle);
+                startActivity(i);
+            }
+        });
     }
-
-
 }
