@@ -27,6 +27,5 @@
     <string name="usoal">Upload Soal</string>
     <string name="namapp">Bank Soal Application</string>
     <string name="desc">Solusi belajar persiapan soal ujian</string>
-
-
+    <string name="descLihatSoal">Kategori Mata Pelajaran</string>
 </resources>
