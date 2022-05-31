@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BankSoal</string>
+    <string name="var1">Email</string>
+    <string name="bsignin">Sign-In</string>
+    <string name="bReg">Register</string>
+    <string name="tLogin">LOGIN</string>
+    <string name="tData">Data Anda</string>
+    <string name="tnama">Nama: </string>
+    <string name="temail">Email: </string>
+    <string name="tpassword">Password: </string>
+    <string name="label2">Login Berhasil</string>
+    <string name="label3">Register Berhasil</string>
+    <string name="label4">Isi Data Berhasil</string>
+    <string name="mDaftar">Pendaftaran</string>
+    <string name="idaftar">Daftar</string>
+    <string name="edAlamat">Masukkan Nama</string>
+    <string name="eemail">Masukkan Email</string>
+    <string name="edPass">Masukkan Password</string>
+    <string name="erepass">Masukkan Password Kembali</string>
+    <string name="ealamat">Masukkan Alamat</string>
+    <string name="eNm">Fifi</string>
+
+    <string name="eTask">Masukkan Task</string>
+    <string name="eJTask">Masukkan Jenis Task</string>
+    <string name="eTimeTask">Masukkan Time Task</string>
+    <string name="eWelcome">Selamat Datang</string>
+
+    <string name="eSubmit">Submit</string>
+    <string name="eLogout">Logout</string>
+
+    <string name="task">Task</string>
+    <string name="JenisTask">Jenis Task</string>
+    <string name="TimeTask">Time Task</string>
+
+</resources>
