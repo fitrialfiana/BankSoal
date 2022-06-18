@@ -29,7 +29,7 @@ public class EditSoal extends AppCompatActivity {
     TextView idText;
     EditText edSoal, edJawaban;
     Button editBtn;
-    String id, Quest, Jawaban, QuestEd, JawabanEd;
+    String id, sol, jwb, QuestEd, JawabanEd;
     int sukses;
 
     private static String url_update = "http://10.0.2.2/umyTI/updatetm.php";
@@ -47,12 +47,12 @@ public class EditSoal extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
         id = bundle.getString("kunci1");
-        Quest = bundle.getString("kunci2");
-        Jawaban = bundle.getString("kunci3");
+        sol = bundle.getString("kunci2");
+        jwb = bundle.getString("kunci3");
 
         idText.setText("id " + id);
-        edSoal.setText(Quest);
-        edJawaban.setText(Jawaban);
+        edSoal.setText(sol);
+        edJawaban.setText(jwb);
 
         editBtn.setOnClickListener(new View.OnClickListener() {
             @Override
