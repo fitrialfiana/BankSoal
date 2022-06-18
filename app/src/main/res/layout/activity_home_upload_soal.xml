@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blue"
-    tools:context=".H2_UploadSoal">
+    tools:context=".HomeUploadSoal">
 
     <ImageView
         android:id="@+id/logoapp1"
@@ -75,9 +75,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
-        app:srcCompat="@android:drawable/ic_input_add"
         tools:layout_editor_absoluteX="321dp"
-        tools:layout_editor_absoluteY="649dp" />
+        tools:layout_editor_absoluteY="649dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@android:drawable/ic_input_add"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

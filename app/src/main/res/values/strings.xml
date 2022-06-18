@@ -42,4 +42,19 @@
     <string name="artikel">ARTIKEL</string>
 
 
+    <string name="P1">NAMA</string>
+    <string name="P2">EMAIL</string>
+    <string name="P3">PASSWORD</string>
+    <string name="P4">USER</string>
+
+    <string name="tdeletedata">Delete Data</string>
+    <string name="tsimpan">Save</string>
+    <string name="tcancel">Cancel</string>
+    <string name="tdeditdata">Edit Data</string>
+    <string name="tcreatedata">Create Data</string>
+    <string name="tview">View</string>
+    <string name="snama">Soal</string>
+    <string name="snotelp">Jawaban</string>
+
+
 </resources>

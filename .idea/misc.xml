@@ -3,15 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_artikel.xml" value="0.1" />
         <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_edit_soal.xml" value="0.1" />
         <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_h2_upload_soal.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_home_upload_soal.xml" value="0.1" />
         <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_kategori_soal.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_lihat_soal.xml" value="0.22" />
         <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_main.xml" value="0.10131712259371833" />
         <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_tambah_up_soal.xml" value="0.1" />
         <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_tampil_soal.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/activity_upload_soal.xml" value="0.1" />
+        <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/layout/row_data_upsoal.xml" value="0.22" />
+        <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/menu/menu.xml" value="0.22" />
+        <entry key="..\:/Users/fiezi/AndroidStudioProjects/BankSoal/app/src/main/res/menu/popup_soal.xml" value="0.1" />
       </map>
     </option>
   </component>

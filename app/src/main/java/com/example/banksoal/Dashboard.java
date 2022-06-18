@@ -6,11 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Dashboard extends AppCompatActivity {
 
     //Deklarasi variabel untuk button
     Button btnCariSoal, btnUploadSoal, btnArtikel;
+    ImageButton btnProfil;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,7 @@ public class Dashboard extends AppCompatActivity {
         btnCariSoal = findViewById((R.id.btcari));
         btnUploadSoal = findViewById((R.id.btupload));
         btnArtikel = findViewById((R.id.btartikel));
+        btnProfil = findViewById((R.id.ButtonProfil));
 
         btnCariSoal.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +41,7 @@ public class Dashboard extends AppCompatActivity {
             public void onClick(View view) {
                 Bundle bundle = new Bundle();
                 //Buat objek berpindah act dari halaman dashboard ke halaman yang menampilkan kategori soal
-                Intent i = new Intent(getApplicationContext(),H2_UploadSoal.class);
+                Intent i = new Intent(getApplicationContext(), HomeUploadSoal.class);
                 i.putExtras(bundle);
                 startActivity(i);
             }
@@ -51,6 +54,17 @@ public class Dashboard extends AppCompatActivity {
                 Bundle bundle = new Bundle();
                 //Buat objek berpindah act dari halaman dashboard ke halaman yang menampilkan kategori soal
                 Intent i = new Intent(getApplicationContext(),Artikel.class);
+                i.putExtras(bundle);
+                startActivity(i);
+            }
+        });
+
+        btnProfil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Bundle bundle = new Bundle();
+                //Buat objek berpindah act dari halaman dashboard ke halaman yang menampilkan Profile
+                Intent i = new Intent(getApplicationContext(),Profile.class);
                 i.putExtras(bundle);
                 startActivity(i);
             }
