@@ -18,10 +18,13 @@
             android:orientation="horizontal"
             android:layout_alignParentTop="true"
             android:background="#ffffff">
+
             <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:src="@drawable/margintop"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:outlineAmbientShadowColor="@color/blue"
+                android:outlineSpotShadowColor="@color/blue"/>
         </LinearLayout>
     </RelativeLayout>
     <ScrollView
@@ -46,7 +49,11 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/p1"/>
+                    android:src="@drawable/p2"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/p3"/>
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -54,24 +61,22 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/p1"/>
+                    android:src="@drawable/p2"/>
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/p1"/>
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/p1"/>
+                    android:src="@drawable/p3"/>
             </LinearLayout>
         </HorizontalScrollView>
+
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="490dp"
-            android:src="@drawable/isi1" />
+            android:layout_height="296dp"
+            android:src="@drawable/isi4" />
+
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="490dp"
+            android:layout_height="366dp"
             android:src="@drawable/isi2" />
         <ImageView
             android:layout_width="wrap_content"

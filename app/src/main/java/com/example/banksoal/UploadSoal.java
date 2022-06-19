@@ -48,13 +48,19 @@ public class UploadSoal extends AppCompatActivity {
         setContentView(R.layout.activity_upload_soal);
 
         recyclerView = findViewById(R.id.recyclerView);
+        fab = findViewById(R.id.floatingBtn);
         BacaData();
         adapter = new UploadSoalAdapter(temanArrayList);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(UploadSoal.this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
-
-
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(UploadSoal.this, tambahUpSoal.class);
+                startActivity(intent);
+            }
+        });
     }
 
     public void BacaData()
