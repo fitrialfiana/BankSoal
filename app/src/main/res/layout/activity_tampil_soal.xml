@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Artikel">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relatif1"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:background="#ffffff">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/iconsoal"
+                android:outlineAmbientShadowColor="@color/blue"
+                android:outlineSpotShadowColor="@color/blue"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView
+    android:layout_below="@+id/relatif1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scroll1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="395dp"
+            android:layout_height="326dp"
+            android:src="@drawable/soal4" />
+
+        <ImageView
+            android:layout_width="395dp"
+            android:layout_height="326dp"
+            android:src="@drawable/soal2" />
+        <ImageView
+            android:layout_width="395dp"
+            android:layout_height="326dp"
+            android:src="@drawable/soal3" />
+        <ImageView
+            android:layout_width="395dp"
+            android:layout_height="326dp"
+            android:src="@drawable/soal4" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
