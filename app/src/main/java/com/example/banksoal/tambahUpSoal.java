@@ -29,7 +29,7 @@ public class tambahUpSoal extends AppCompatActivity {
     String Quest, Answer;
     int success;
 
-    private static String url_insert = "http://10.0.2.2/umyTI/tambahtm.php";
+    private static String url_insert = "https://banksoalta.praktikumtiumy.com/tambahtm.php";
     private static final String TAG = tambahUpSoal.class.getSimpleName();
     private static final String TAG_SUCCES = "success";
 

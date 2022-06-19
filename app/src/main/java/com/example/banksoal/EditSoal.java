@@ -32,7 +32,7 @@ public class EditSoal extends AppCompatActivity {
     String id, sol, jwb, QuestEd, JawabanEd;
     int sukses;
 
-    private static String url_update = "http://10.0.2.2/umyTI/updatetm.php";
+    private static String url_update = "https://banksoalta.praktikumtiumy.com/updatetm.php";
     private static final String TAG = EditSoal.class.getSimpleName();
     private static final String TAG_SUCCES = "success";
 

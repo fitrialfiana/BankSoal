@@ -119,7 +119,7 @@ public class UploadSoalAdapter extends RecyclerView.Adapter<UploadSoalAdapter.Te
     }
 
     private void HapusData(final String idx) {
-        String url_update = "http://10.0.2.2/umyTI/deletetm.php";
+        String url_update = "https://banksoalta.praktikumtiumy.com/deletetm.php";
         final String TAG = UploadSoal.class.getSimpleName();
         final String TAG_SUCCES = "success";
         final int[] sukses = new int[1];

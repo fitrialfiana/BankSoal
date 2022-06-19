@@ -37,7 +37,7 @@ public class UploadSoal extends AppCompatActivity {
 
 
     private static final String TAG = UploadSoal.class.getSimpleName();
-    private static String url_select = "http://10.0.2.2/umyTI/bacateman.php";
+    private static String url_select = "https://banksoalta.praktikumtiumy.com/bacateman.php";
     public static final String TAG_ID = "id";
     public static final String TAG_SOAL = "soal";
     public static final String TAG_JAWABAN = "jawaban";

@@ -38,7 +38,7 @@ public class ViewSoal extends AppCompatActivity {
 
 
     private static final String TAG = ViewSoal.class.getSimpleName();
-    private static String url_select = "http://10.0.2.2/umyTI/bacasoal.php";
+    private static String url_select = "https://banksoalta.praktikumtiumy.com/bacasoal.php";
     public static final String TAG_ID = "id";
     public static final String TAG_DATA = "data";
     public static final String TAG_JAWAB = "jawab";
