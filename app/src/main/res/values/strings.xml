@@ -29,10 +29,10 @@
     <string name="desc">Solusi belajar persiapan soal ujian</string>
     <string name="descLihatSoal">Kategori Mata Pelajaran</string>
 
-    <string name="K1">Kategori 1</string>
-    <string name="K2">Kategori 2</string>
-    <string name="K3">Kategori 3</string>
-    <string name="K4">Kategori 4</string>
+    <string name="K1">Kumpulan Soal UAS</string>
+    <string name="K2">Kumpulan Soal UTS</string>
+    <string name="K3">Contoh Soal UAS 2</string>
+    <string name="K4">Contoh Soal UN</string>
     <string name="descKategori">SubKategori Bank Soal</string>
 
 
@@ -42,10 +42,10 @@
     <string name="artikel">ARTIKEL</string>
 
 
-    <string name="P1">NAMA</string>
-    <string name="P2">EMAIL</string>
-    <string name="P3">PASSWORD</string>
-    <string name="P4">USER</string>
+    <string name="P1">NAMA : Fitri</string>
+    <string name="P2">EMAIL : fitrialfiana62@gmail.com</string>
+    <string name="P3">PASSWORD : .....</string>
+    <string name="P4">USER : ftr_1</string>
 
     <string name="tdeletedata">Delete Data</string>
     <string name="tsimpan">Save</string>
