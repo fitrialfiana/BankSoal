@@ -3,6 +3,7 @@
     package="com.example.banksoal">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:name=".App.AppController"
@@ -15,6 +16,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BankSoal"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".EditView"
+            android:exported="false" />
+        <activity
+            android:name=".TambahView"
+            android:exported="false" />
+        <activity
+            android:name=".ViewSoal"
+            android:exported="false" />
+        <activity
+            android:name=".daftarsoal"
+            android:exported="false" />
         <activity
             android:name=".TampilSoal2"
             android:exported="false" />

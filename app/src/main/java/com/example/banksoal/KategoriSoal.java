@@ -28,7 +28,7 @@ public class KategoriSoal extends AppCompatActivity {
             public void onClick(View view) {
                 Bundle bundle = new Bundle();
                 //Buat objek berpindah act dari halaman dashboard ke halaman yang menampilkan kategori soal
-                Intent i = new Intent(getApplicationContext(),TampilSoal.class);
+                Intent i = new Intent(getApplicationContext(),UploadSoal.class);
                 i.putExtras(bundle);
                 startActivity(i);
             }
@@ -39,7 +39,7 @@ public class KategoriSoal extends AppCompatActivity {
             public void onClick(View view) {
                 Bundle bundle = new Bundle();
                 //Buat objek berpindah act dari halaman dashboard ke halaman yang menampilkan kategori soal
-                Intent i = new Intent(getApplicationContext(),TampilSoal.class);
+                Intent i = new Intent(getApplicationContext(),UploadSoal.class);
                 i.putExtras(bundle);
                 startActivity(i);
             }
@@ -49,7 +49,7 @@ public class KategoriSoal extends AppCompatActivity {
             public void onClick(View view) {
                 Bundle bundle = new Bundle();
                 //Buat objek berpindah act dari halaman dashboard ke halaman yang menampilkan kategori soal
-                Intent i = new Intent(getApplicationContext(),TampilSoal.class);
+                Intent i = new Intent(getApplicationContext(),UploadSoal.class);
                 i.putExtras(bundle);
                 startActivity(i);
             }
@@ -60,7 +60,7 @@ public class KategoriSoal extends AppCompatActivity {
             public void onClick(View view) {
                 Bundle bundle = new Bundle();
                 //Buat objek berpindah act dari halaman dashboard ke halaman yang menampilkan kategori soal
-                Intent i = new Intent(getApplicationContext(),TampilSoal.class);
+                Intent i = new Intent(getApplicationContext(),UploadSoal.class);
                 i.putExtras(bundle);
                 startActivity(i);
             }

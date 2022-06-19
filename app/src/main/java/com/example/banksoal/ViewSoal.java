@@ -17,8 +17,8 @@ import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
 
-import com.example.banksoal.Adapter.UploadSoalAdapter;
-import com.example.banksoal.database.dbUpSoal;
+import com.example.banksoal.Adapter.TampilSoalAdapter;
+import com.example.banksoal.database.dbTampilSoal;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import org.json.JSONArray;
@@ -29,37 +29,48 @@ import java.util.ArrayList;
 
 import static android.content.ContentValues.TAG;
 
-public class UploadSoal extends AppCompatActivity {
-    private FloatingActionButton fab;
-    private RecyclerView recyclerView;
-    private UploadSoalAdapter adapter;
-    private ArrayList<dbUpSoal> temanArrayList = new ArrayList<>();
+public class ViewSoal extends AppCompatActivity {
+
+    private FloatingActionButton fab2;
+    private RecyclerView recyclerView2;
+    private TampilSoalAdapter adapterr;
+    private ArrayList<dbTampilSoal> teman2ArrayList = new ArrayList<>();
 
 
-    private static final String TAG = UploadSoal.class.getSimpleName();
-    private static String url_select = "http://10.0.2.2/umyTI/bacateman.php";
+    private static final String TAG = ViewSoal.class.getSimpleName();
+    private static String url_select = "http://10.0.2.2/umyTI/bacasoal.php";
     public static final String TAG_ID = "id";
-    public static final String TAG_SOAL = "soal";
-    public static final String TAG_JAWABAN = "jawaban";
+    public static final String TAG_DATA = "data";
+    public static final String TAG_JAWAB = "jawab";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_upload_soal);
+        setContentView(R.layout.activity_view_soal);
 
-        recyclerView = findViewById(R.id.recyclerView);
+        recyclerView2 = findViewById(R.id.recyclerView2);
+        fab2 = findViewById(R.id.floatBtn);
         BacaData();
-        adapter = new UploadSoalAdapter(temanArrayList);
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(UploadSoal.this);
-        recyclerView.setLayoutManager(layoutManager);
-        recyclerView.setAdapter(adapter);
+        adapterr = new TampilSoalAdapter(teman2ArrayList);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(ViewSoal.this);
+        recyclerView2.setLayoutManager(layoutManager);
+        recyclerView2.setAdapter(adapterr);
 
+        fab2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ViewSoal.this, TambahView.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
+
     public void BacaData()
     {
-        temanArrayList.clear();
+        teman2ArrayList.clear();
         RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
         JsonArrayRequest jArr = new JsonArrayRequest(url_select, new Response.Listener<JSONArray>() {
             @Override
@@ -71,28 +82,26 @@ public class UploadSoal extends AppCompatActivity {
                     try {
                         JSONObject obj = response.getJSONObject(i);
 
-                        dbUpSoal item = new dbUpSoal();
-                        item.setId(obj.getString(TAG_ID));
-                        item.setSoal(obj.getString(TAG_SOAL));
-                        item.setJawaban(obj.getString(TAG_JAWABAN));
+                        dbTampilSoal item = new dbTampilSoal();
+                        item.setIdd(obj.getString(TAG_ID));
+                        item.setData(obj.getString(TAG_DATA));
+                        item.setJawab(obj.getString(TAG_JAWAB));
 
                         //menambah item ke array
-                        temanArrayList.add(item);
+                        teman2ArrayList.add(item);
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
                 }
-                adapter.notifyDataSetChanged();
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
                 VolleyLog.d(TAG, "Error: " + error.getMessage());
                 error.printStackTrace();
-                Toast.makeText(UploadSoal.this,"gagal", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ViewSoal.this,"gagal", Toast.LENGTH_SHORT).show();
             }
         });
         requestQueue.add(jArr);
     }
-
 }

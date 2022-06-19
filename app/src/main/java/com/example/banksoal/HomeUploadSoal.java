@@ -25,7 +25,7 @@ public class HomeUploadSoal extends AppCompatActivity {
                 Bundle bundle = new Bundle();
                 //Buat objek berpindah act dari halaman home upload ke halaman upload soal
                 //CRUD
-                Intent i = new Intent(getApplicationContext(), UploadSoal.class);
+                Intent i = new Intent(getApplicationContext(), ViewSoal.class);
                 i.putExtras(bundle);
                 startActivity(i);
             }
